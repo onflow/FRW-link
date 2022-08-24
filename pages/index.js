@@ -40,19 +40,25 @@ export default function Home() {
           >
             Alredy have the app ?
           </Text>
-          <Button
-            fontSize={[3, 4, 5]}
-            sx={{
-              background: "#FC814A",
-              py: "1.0rem",
-              px: "2rem",
-              borderRadius: "5rem",
-              fontWeight: "bold",
-            }}
+
+          <Link
+            variant="nav"
+            href="lilico://"
           >
-            {" "}
-            Open in lilico{" "}
-          </Button>
+            <Box
+              fontSize={[3, 4, 5]}
+              sx={{
+                background: "#FC814A",
+                py: "1.0rem",
+                px: "2rem",
+                borderRadius: "5rem",
+                fontWeight: "bold",
+              }}
+            >
+              {" "}
+              Open in lilico{" "}
+            </Box>
+          </Link>
 
           <Text
             sx={{ textAlign: "center" }}
@@ -66,7 +72,7 @@ export default function Home() {
 
           <Link variant="nav" href="https://lilico.app">
             <Image
-              src={"/AppStore.png"}
+              src={"/AppStore.svg"}
               alt={"AppStore"}
               layout="fixed"
               height="80"
@@ -80,7 +86,7 @@ export default function Home() {
             href="https://play.google.com/store/apps/details?id=io.outblock.lilico"
           >
             <Image
-              src={"/PlayStore.png"}
+              src={"/PlayStore.svg"}
               alt={"AppStore"}
               layout="fixed"
               height="80"
