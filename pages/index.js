@@ -75,7 +75,7 @@ export default function Home() {
               src={"/AppStore.svg"}
               alt={"AppStore"}
               layout="fixed"
-              height="80"
+              height="50"
               width="250"
               objectFit="contain"
             ></Image>
@@ -89,7 +89,7 @@ export default function Home() {
               src={"/PlayStore.svg"}
               alt={"AppStore"}
               layout="fixed"
-              height="80"
+              height="50"
               width="250"
               objectFit="contain"
             ></Image>
