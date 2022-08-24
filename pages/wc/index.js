@@ -38,7 +38,7 @@ export default function Home() {
             fontWeight="semi-bold"
             color="primary"
           >
-            Alredy have the app ?
+            Already have the app ?
           </Text>
 
           <Link
@@ -67,7 +67,7 @@ export default function Home() {
             fontWeight="semi-bold"
             color="primary"
           >
-            Do not have Lilico ?
+            Do not have lilico ?
           </Text>
 
           <Link variant="nav" href="https://lilico.app">
