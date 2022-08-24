@@ -1,0 +1,14 @@
+{
+	"applinks": {
+ 		"apps": [], 
+		"details": [
+			{
+				"appID": "C7CT739SU9.io.outblock.lilico.dev",
+            	"paths": [ "*" ]
+        	}
+		],
+		"webcredentials": {
+			"apps": [ "C7CT739SU9.io.outblock.lilico.dev", "C7CT739SU9.io.outblock.lilico" ]
+		}
+	}
+}
