@@ -2,9 +2,12 @@ import Head from "next/head";
 import Image from "next/image";
 import styles from "../../styles/Home.module.css";
 import Spline from "@splinetool/react-spline";
+import { useRouter } from 'next/router'
 import { Box, Button, Flex, Text, Link } from "rebass";
 
 export default function Home() {
+  const router = useRouter()
+  const {uri} = router.query
   return (
     <div className={styles.container}>
       <Head>
@@ -43,7 +46,7 @@ export default function Home() {
 
           <Link
             variant="nav"
-            href="lilico://"
+            href={ uri && uri !== '' ? `lilico://uri?=${encodeURIComponent(uri)}` : "lilico://"}
           >
             <Box
               fontSize={[3, 4, 5]}
