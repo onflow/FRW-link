@@ -46,7 +46,7 @@ export default function Home() {
 
           <Link
             variant="nav"
-            href={ uri && uri !== '' ? `lilico://uri?=${encodeURIComponent(uri)}` : "lilico://"}
+            href={ uri && uri !== '' ? `lilico://wc?uri=${encodeURIComponent(uri)}` : "lilico://"}
           >
             <Box
               fontSize={[3, 4, 5]}
