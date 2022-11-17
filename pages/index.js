@@ -12,8 +12,10 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>Lilico Mobile</title>
+        <meta property="og:title" content="Lilico Mobile" />
         <meta name="description" content="Lilico Mobile Deep Link" />
         <link rel="icon" href="/favicon.ico" />
+        <meta property="og:image" content="https://link.lilico.app/logo.png" />
       </Head>
 
       <main className={styles.main}>
