@@ -73,7 +73,7 @@ export default function Home() {
             Do not have lilico ?
           </Text>
 
-          <Link variant="nav" href="https://lilico.app">
+          <Link variant="nav" href="https://apps.apple.com/us/app/lilico/id1644169603">
             <Image
               src={"/AppStore.svg"}
               alt={"AppStore"}
