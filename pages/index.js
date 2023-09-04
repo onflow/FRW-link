@@ -11,11 +11,11 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Lilico Mobile</title>
-        <meta property="og:title" content="Lilico Mobile" />
-        <meta name="description" content="Lilico Mobile Deep Link" />
+        <title>Flow Core Wallet Mobile</title>
+        <meta property="og:title" content="Flow Core Wallet Mobile" />
+        <meta name="description" content="Flow Core Wallet Mobile Deep Link" />
         <link rel="icon" href="/favicon.ico" />
-        <meta property="og:image" content="https://link.lilico.app/logo.png" />
+        <meta property="og:image" content="https://fcw-link.lilico.app/logo.png" />
       </Head>
 
       <main className={styles.main}>
@@ -35,70 +35,73 @@ export default function Home() {
           <Flex
             sx={{ height: "100px", width: "100px", "align-self": "center" }}
           >
-            <Spline scene="https://prod.spline.design/y16diTVaJFNqfAHO/scene.splinecode" />
+            <Image alt="logo" src='/logo.png' width="100px" height="100px"/>
           </Flex>
           <Text
             sx={{ textAlign: "center" }}
-            fontSize={[1, 2, 3]}
-            fontWeight="semi-bold"
+            fontSize={[3, 4, 5]}
+            fontWeight="bold"
             color="primary"
           >
-            Already have the app ?
+            Flow Core
           </Text>
 
           <Link
             variant="nav"
-            href={ uri && uri !== '' ? `lilico://wc?uri=${encodeURIComponent(uri)}` : "lilico://"}
+            href={ uri && uri !== '' ? `fcw://wc?uri=${encodeURIComponent(uri)}` : "fcw://"}
           >
             <Box
-              fontSize={[3, 4, 5]}
+              fontSize={[1, 2, 3]}
               sx={{
-                background: "#FC814A",
+                background: "#41CC5D",
                 py: "1.0rem",
                 px: "2rem",
-                borderRadius: "5rem",
+                borderRadius: "0.5rem",
                 fontWeight: "bold",
+                color: "#000000",
               }}
             >
               {" "}
-              Open in lilico{" "}
+              Open in Flow Core{" "}
             </Box>
           </Link>
 
+          <Flex mt={5} sx={{alignItems: 'center', justifyContent: 'center', gap: '15px'}} width="100%">
+            <Box sx={{ height: '1px' , width: '20%', backgroundColor: "#9F9F9F" }}/>
           <Text
-            sx={{ textAlign: "center" }}
-            mt={5}
-            fontSize={[1, 2, 3]}
+            sx={{ textAlign: "center", color: "#9F9F9F" }}
+            fontSize={[1, 1, 1]}
             fontWeight="semi-bold"
-            color="primary"
           >
-            Do not have lilico ?
+            Do not have app ?
           </Text>
+            <Box sx={{ height: '1px' , width: '20%', backgroundColor: "#9F9F9F" }}/>
+          </Flex>
 
-          <Link variant="nav" href="https://apps.apple.com/us/app/lilico/id1644169603">
-            <Image
-              src={"/AppStore.svg"}
-              alt={"AppStore"}
-              layout="fixed"
-              height="50"
-              width="250"
-              objectFit="contain"
-            ></Image>
-          </Link>
+            <Link variant="nav" href="https://apps.apple.com/us/app/lilico/id1644169603">
+              <Image
+                src={"/AppStore_Dark.svg"}
+                alt={"AppStore"}
+                layout="fixed"
+                height="50"
+                width="250"
+                objectFit="contain"
+              ></Image>
+            </Link>
 
-          <Link
-            variant="nav"
-            href="https://play.google.com/store/apps/details?id=io.outblock.lilico"
-          >
-            <Image
-              src={"/PlayStore.svg"}
-              alt={"AppStore"}
-              layout="fixed"
-              height="50"
-              width="250"
-              objectFit="contain"
-            ></Image>
-          </Link>
+            <Link
+              variant="nav"
+              href="https://play.google.com/store/apps/details?id=io.outblock.lilico"
+            >
+              <Image
+                src={"/PlayStore_Dark.svg"}
+                alt={"AppStore"}
+                layout="fixed"
+                height="50"
+                width="250"
+                objectFit="contain"
+              ></Image>
+            </Link>
         </Flex>
       </main>
     </div>
