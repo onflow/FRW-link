@@ -11,11 +11,11 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Flow Core Wallet Mobile</title>
-        <meta property="og:title" content="Flow Core Wallet Mobile" />
-        <meta name="description" content="Flow Core Wallet Mobile Deep Link" />
+        <title>Flow Reference Wallet Mobile</title>
+        <meta property="og:title" content="Flow Reference Wallet Mobile" />
+        <meta name="description" content="Flow Reference Wallet Mobile Deep Link" />
         <link rel="icon" href="/favicon.ico" />
-        <meta property="og:image" content="https://fcw-link.lilico.app/logo.png" />
+        <meta property="og:image" content="https://frw-link.lilico.app/logo.png" />
       </Head>
 
       <main className={styles.main}>
@@ -43,7 +43,7 @@ export default function Home() {
             fontWeight="bold"
             color="primary"
           >
-            Flow Core
+            Flow Reference Wallet
           </Text>
 
           <Link
@@ -62,7 +62,7 @@ export default function Home() {
               }}
             >
               {" "}
-              Open in Flow Core{" "}
+              Open in Flow Ref{" "}
             </Box>
           </Link>
 
