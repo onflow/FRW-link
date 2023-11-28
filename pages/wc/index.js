@@ -49,7 +49,7 @@ export default function Home() {
 
           <Link
             variant="nav"
-            href={ uri && uri !== '' ? `fcw://wc?uri=${encodeURIComponent(uri)}` : "fcw://"}
+            href={ uri && uri !== '' ? `frw://wc?uri=${encodeURIComponent(uri)}` : "frw://"}
           >
             <Box
               fontSize={[1, 2, 3]}
