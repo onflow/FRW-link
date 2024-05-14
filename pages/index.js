@@ -11,9 +11,9 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Flow Reference Wallet Mobile</title>
-        <meta property="og:title" content="Flow Reference Wallet Mobile" />
-        <meta name="description" content="Flow Reference Wallet Mobile Deep Link" />
+        <title>Flow Wallet Mobile</title>
+        <meta property="og:title" content="Flow Wallet Mobile" />
+        <meta name="description" content="Flow Wallet Mobile Deep Link" />
         <link rel="icon" href="/favicon.ico" />
         <meta property="og:image" content="https://frw-link.lilico.app/logo.png" />
       </Head>
@@ -43,7 +43,7 @@ export default function Home() {
             fontWeight="bold"
             color="primary"
           >
-            Flow Reference Wallet
+            Flow Wallet
           </Text>
 
           <Link
@@ -62,7 +62,7 @@ export default function Home() {
               }}
             >
               {" "}
-              Open in Flow Ref{" "}
+              Open in Flow Wallet{" "}
             </Box>
           </Link>
 
@@ -78,7 +78,7 @@ export default function Home() {
             <Box sx={{ height: '1px' , width: '20%', backgroundColor: "#9F9F9F" }}/>
           </Flex>
 
-            <Link variant="nav" href="https://apps.apple.com/us/app/lilico/id1644169603">
+            <Link variant="nav" href="https://apps.apple.com/au/app/flow-wallet-nfts-and-crypto/id6478996750">
               <Image
                 src={"/AppStore_Dark.svg"}
                 alt={"AppStore"}
@@ -91,7 +91,7 @@ export default function Home() {
 
             <Link
               variant="nav"
-              href="https://play.google.com/store/apps/details?id=io.outblock.lilico"
+              href="https://play.google.com/store/apps/details?id=com.flowfoundation.wallet"
             >
               <Image
                 src={"/PlayStore_Dark.svg"}
